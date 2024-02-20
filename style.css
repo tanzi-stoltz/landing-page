@@ -1,0 +1,167 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px 0px 0px 0px;
+      
+}
+
+h1 {
+    color: #e5e7eb;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;  
+    padding: 10px 300px 10px 300px ;  
+       
+}
+
+.links a {
+    font-size: 18px;
+    margin: 10px ;
+    text-decoration: none;    
+}
+
+a:link {
+    color: #e5e7eb;
+}
+
+a:visited {
+    color: #e5e7eb;
+}
+
+a:hover {
+    color: #3882f6;
+}
+
+.main-content {
+    display:flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    padding: 10px 300px 100px 300px ; 
+    color: #e5e7eb;
+}
+
+p.paragraph {
+    font-size: 18px;
+}
+
+button {
+    background-color: #3882f6;
+    color:#e5e7eb;
+    padding: 5px 30px 5px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.cookie-image {
+    padding-left: 200px;
+}
+
+.body-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 30px 0px 100px 0px;
+}
+
+.product-heading {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.chocchip {
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+    padding: 0px;
+    margin: 0px 50px 0px 50px ;
+}
+
+.bread {
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+    padding: 0px;
+    margin: 0px 50px 0px 50px ;
+}
+
+.lemon {
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+    padding: 0px;
+    margin: 0px 50px 0px 50px ;
+}
+
+.shortbread {
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+    padding: 0px;
+    margin: 0px 50px 0px 50px ;
+}
+
+.img-container1 {
+    text-align: center;  
+}
+
+.img-container2 {
+    text-align: center;
+}
+
+.img-container3 {
+    text-align: center;
+}
+
+.img-container4 {
+    text-align: center;
+}
+
+.body-two {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    margin: 0px 0px 0px 0px;
+    padding: 100px 300px 100px 300px;
+
+}
+
+blockquote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+p.author {
+    text-align: right;
+    padding-right: 300px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.bottom {
+    display: flex;
+    height: 400px;
+
+}
+
+#banner {
+    display: flex;
+    background-color: #3882f6;
+    justify-content: center;
+   
+}
+
+footer {
+    background-color: #1f2937;
+    text-align: center;
+    padding: 25px 0px 25px 0px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
